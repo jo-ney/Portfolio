@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/jo-ney.github.io/Portfolio/static/css/main.25ad9ef5.css",
-    "main.js": "/jo-ney.github.io/Portfolio/static/js/main.6a3da91e.js",
-    "static/media/about.png": "/jo-ney.github.io/Portfolio/static/media/about.619ff0b319a55d0c05b1.png",
-    "static/media/hero.png": "/jo-ney.github.io/Portfolio/static/media/hero.f14f30c6d01a97df04f6.png",
-    "static/media/resume.jpg": "/jo-ney.github.io/Portfolio/static/media/resume.40d9ec3d0701d254f50f.jpg",
-    "static/media/ida.jpeg": "/jo-ney.github.io/Portfolio/static/media/ida.da2cba709528c7cd294c.jpeg",
-    "index.html": "/jo-ney.github.io/Portfolio/index.html",
-    "main.25ad9ef5.css.map": "/jo-ney.github.io/Portfolio/static/css/main.25ad9ef5.css.map",
-    "main.6a3da91e.js.map": "/jo-ney.github.io/Portfolio/static/js/main.6a3da91e.js.map"
+    "main.css": "/Portfolio/static/css/main.25ad9ef5.css",
+    "main.js": "/Portfolio/static/js/main.bcc423d3.js",
+    "static/media/about.png": "/Portfolio/static/media/about.619ff0b319a55d0c05b1.png",
+    "static/media/hero.png": "/Portfolio/static/media/hero.f14f30c6d01a97df04f6.png",
+    "static/media/resume.jpg": "/Portfolio/static/media/resume.40d9ec3d0701d254f50f.jpg",
+    "static/media/ida.jpeg": "/Portfolio/static/media/ida.da2cba709528c7cd294c.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.25ad9ef5.css.map": "/Portfolio/static/css/main.25ad9ef5.css.map",
+    "main.bcc423d3.js.map": "/Portfolio/static/js/main.bcc423d3.js.map"
   },
   "entrypoints": [
     "static/css/main.25ad9ef5.css",
-    "static/js/main.6a3da91e.js"
+    "static/js/main.bcc423d3.js"
   ]
 }
