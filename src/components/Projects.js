@@ -7,12 +7,12 @@ export default function projects(){
             {
                 image: websiteImg1,
                 description: "My website is built with HTML, CSS, JS, and Bootstrap, ensuring a responsive design that works smoothly on all devices.",
-                link: "https://jo-ney.github.io/Dino-game/"
+                link: "https://jo-ney.github.io/IDA/"
             },
             {
                 image: websiteImg2,
                 description: "This Game build with HTML, CSS, JavaScript",
-                link: "https://jo-ney.github.io/IDA/"
+                link: "https://jo-ney.github.io/Dino-game/"
             }
         ]
     }
