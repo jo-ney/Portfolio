@@ -35,5 +35,5 @@ html{
 }
 
 .btn-up{
-  @apply fixed right-[40px] bottom-[40px] px-4 py-4 bg-tertiary rounded-[300px];
+  @apply fixed right-[5px] md:right-[40px] bottom-[5px] md:bottom-[40px] px-2 md:px-4 py-2 md:py-4 bg-tertiary rounded-[300px];
 }
