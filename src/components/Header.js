@@ -8,7 +8,7 @@ export default function Header(){
         <a className="font-bold text-3xl" href="#">Joney</a>
         <nav className="hidden md:block">
             <ul className="flex">
-                <li><a className="hover:text-tertiary" href="/">Home</a></li>
+                <li><a className="hover:text-tertiary" href="#">Home</a></li>
                 <li><a className="hover:text-tertiary" href="#about">About</a></li>
                 <li><a className="hover:text-tertiary" href="#projects">Project</a></li>
                 <li><a className="hover:text-tertiary" href="#resume">Resume</a></li>
