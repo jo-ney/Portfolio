@@ -7,13 +7,13 @@ export default function Header(){
     return <header className="flex justify-between px-5 py-2 bg-primary text-secondary">
         <a className="font-bold text-3xl" href="#">Joney</a>
         <nav className="hidden md:block">
-            <ul className="flex">
-                <li><a className="hover:text-tertiary" href="#">Home</a></li>
-                <li><a className="hover:text-tertiary" href="#about">About</a></li>
-                <li><a className="hover:text-tertiary" href="#projects">Project</a></li>
-                <li><a className="hover:text-tertiary" href="#resume">Resume</a></li>
-                <li><a className="hover:text-tertiary" href="#contact">Contact</a></li>
-            </ul>
+                <ul className="flex">
+                    <li><a className="hover:text-tertiary" href="#">Home</a></li>
+                    <li><a className="hover:text-tertiary" href="#about">About</a></li>
+                    <li><a className="hover:text-tertiary" href="#projects">Project</a></li>
+                    <li><a className="hover:text-tertiary" href="#resume">Resume</a></li>
+                    <li><a className="hover:text-tertiary" href="#contact">Contact</a></li>
+                </ul>
         </nav>
         {toggleMenu && <nav className="block md:hidden">
             <ul onClick={()=> setToggleMenu(!toggleMenu)} className="flex flex-col text-secondary mobile-nav">

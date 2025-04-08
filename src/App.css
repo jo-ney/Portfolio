@@ -7,13 +7,13 @@ header ul li{
 }
 
 .bg-primary{
-  /* background: rgb(85 81 227); */
   background: #e4d1d3;
 }
 .bg-secondary{
-  /* background: #2b2d77; */
-  /* background: #dd0a35; */
   background: #1687a7;
+}
+.bg-tertiary{
+ background: #014955;
 }
 
 .mobile-nav{
@@ -32,4 +32,8 @@ header ul li{
 
 html{
   scroll-behavior: smooth;
+}
+
+.btn-up{
+  @apply fixed right-[40px] bottom-[40px] px-4 py-4 bg-tertiary rounded-[300px];
 }
