@@ -1,4 +1,5 @@
 import websiteImg1 from "../assets/ida.jpeg"
+import websiteImg2 from "../assets/Dino-game.jpeg"
 
 export default function projects(){
     const config = {
@@ -6,8 +7,13 @@ export default function projects(){
             {
                 image: websiteImg1,
                 description: "My website is built with HTML, CSS, JS, and Bootstrap, ensuring a responsive design that works smoothly on all devices.",
-                link: "https://jo-ney.github.io/IDA/"
+                link: "https://jo-ney.github.io/Dino-game/"
             },
+            {
+                image: websiteImg2,
+                description: "This Game build with HTML, CSS, JavaScript",
+                link: "https://jo-ney.github.io/IDA/"
+            }
         ]
     }
     return <section id="projects" className="flex flex-col px-5 py-20 bg-primary justify-center">
@@ -18,7 +24,7 @@ export default function projects(){
             </div>
         </div>
         <div className="w-full">
-            <div className="flex flex-col md:flex-row px-10 gap-5">
+            <div className="flex flex-col justify-between md:flex-row px-10 gap-5">
                 {config.projects.map((project)=>(
                     
                         <div className="relative">
