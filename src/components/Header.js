@@ -5,7 +5,7 @@ export default function Header(){
     const [toggleMenu, setToggleMenu] = useState(false)
 
     return <header className="flex justify-between px-5 py-2 bg-primary text-secondary">
-        <a className="font-bold text-3xl" href="#">Joney</a>
+        <a className="font-bold text-3xl" href="#">JoneY</a>
         <nav className="hidden md:block">
                 <ul className="flex">
                     <li><a className="hover:text-tertiary" href="#">Home</a></li>

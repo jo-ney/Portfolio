@@ -10,10 +10,10 @@ export default function About(){
         <div className="md:w-1/2 py-5">
             <img src={aboutImg} />
         </div>
-        <div className="md:w-1/2 flex justify-center text-primary">
+        <div className="md:w-1/2 flex justify-center text-white">
             <div className="flex flex-col justify-center px-5">
                 <h1 className="text-4xl border-b-4 border-tertiary mb-5 w-[170px] font-bold">About me</h1>
-                <p className="text-white pb-5">{config.line1}</p>
+                <p className="pb-5">{config.line1}</p>
                 <p className="pb-5">{config.line2}</p>
                 <p className="pb-5">{config.line3}</p>
             </div>
