@@ -16,10 +16,10 @@ export default function Hero(){
                 Im <span className="text-black">S</span> Joney Abraham
                 <p className="text-2xl">{config.subtitle}</p>
             </h1>
-            <div className="flex py-5">
-                <a target="_blank" href={config.social.linkedin} className="pr-5 hover:text-white"><AiOutlineLinkedin size="40"/></a>
-                <a target="_blank" href={config.social.instagram} className="pr-5 hover:text-white"><AiOutlineInstagram size={40}/></a>
-                <a target="_blank" href={config.social.whatsapp} className="hover:text-white"><AiOutlineWhatsApp size="40"/></a>
+            <div className="flex gap-2 py-5">
+                <a target="_blank" href={config.social.linkedin} className="hover:text-white linkedinIcon"><AiOutlineLinkedin size="40"/></a>
+                <a target="_blank" href={config.social.instagram} className="hover:text-white instagramIcon"><AiOutlineInstagram size={40}/></a>
+                <a target="_blank" href={config.social.whatsapp} className="hover:text-white whatsappIcon"><AiOutlineWhatsApp size="40"/></a>
             </div>
         </div>
         

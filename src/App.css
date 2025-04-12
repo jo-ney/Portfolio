@@ -37,3 +37,20 @@ html{
 .btn-up{
   @apply fixed right-[20px] md:right-[40px] bottom-[20px] md:bottom-[40px] px-3 md:px-4 py-3 md:py-4 bg-tertiary rounded-[300px];
 }
+
+/* social icon hover */
+.whatsappIcon:hover{
+  background: #128c7e;
+   color:white;
+   border-radius: 20px;
+}
+.linkedinIcon:hover{
+  background: #0077B5;
+  color:white;
+  border-radius: 5px
+}
+.instagramIcon:hover{
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  color:white;
+  border-radius: 5px
+}
