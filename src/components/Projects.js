@@ -1,5 +1,6 @@
 import websiteImg1 from "../assets/ida.jpeg"
 import websiteImg2 from "../assets/Dino-game.jpeg"
+import websiteImg3 from "../assets/todo.jpeg"
 
 export default function projects(){
     const config = {
@@ -13,7 +14,13 @@ export default function projects(){
                 image: websiteImg2,
                 description: "This Game build with HTML, CSS, JavaScript",
                 link: "https://jo-ney.github.io/Dino-game/"
+            },
+            {
+                image: websiteImg3,
+                description: "Todo list Project build with MERN stack",
+                link: "https://jo-ney.github.io/todo-own-react//"
             }
+
         ]
     }
     return <section id="projects" className="flex flex-col px-5 py-20 bg-primary justify-center">
