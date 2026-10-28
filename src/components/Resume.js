@@ -2,7 +2,8 @@ import resumeImg from '../assets/resume.jpg'
 
 export default function Resume(){
     const config = {
-        link: "https://drive.google.com/file/d/1_mZDPp2CDkE9y4U8UC8cNo374--bQBM6/view?usp=sharing"
+        // link: "https://drive.google.com/file/d/1_mZDPp2CDkE9y4U8UC8cNo374--bQBM6/view?usp=sharing" // old link
+        link: "https://drive.google.com/file/d/1nETSptGM8NS35fRGiCdCLCzNKZScjQ9q/view?usp=sharing"
     }
     return <section id="resume" className="flex flex-col md:flex-row bg-secondary">
         <div className="md:w-1/2 py-5 flex justify-center md:justify-end">

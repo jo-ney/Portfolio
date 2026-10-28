@@ -18,7 +18,7 @@ export default function Hero(){
             </h1>
             <div className="flex gap-2 py-5">
                 <a target="_blank" href={config.social.linkedin} className="hover:text-white linkedinIcon"><AiOutlineLinkedin size="40"/></a>
-                <a target="_blank" href={config.social.instagram} className="hover:text-white instagramIcon"><AiOutlineInstagram size={40}/></a>
+                {/* <a target="_blank" href={config.social.instagram} className="hover:text-white instagramIcon"><AiOutlineInstagram size={40}/></a> */}
                 <a target="_blank" href={config.social.whatsapp} className="hover:text-white whatsappIcon"><AiOutlineWhatsApp size="40"/></a>
             </div>
         </div>
